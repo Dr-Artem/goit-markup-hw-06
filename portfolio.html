@@ -309,7 +309,7 @@
                         <ul class="address__list">
                             <li class="address__item">
                                 <a
-                                    class="address__map address__link--style"
+                                    class="address__map address__link--font"
                                     href="https://www.google.com/maps/place/Lesi+Ukrainky+Blvd,+26,+Kyiv,+02000/@50.4265841,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
                                     target="_blank"
                                     rel="noopener noreferrer"
@@ -318,12 +318,12 @@
                                 </a>
                             </li>
                             <li class="address__item">
-                                <a class="address__link address__link--style" href="mailto:info@devstudio.com">
+                                <a class="address__link address__link--font" href="mailto:info@devstudio.com">
                                     info@devstudio.com
                                 </a>
                             </li>
                             <li class="address__item">
-                                <a class="address__link address__link--style" href="tel:+380961111111">
+                                <a class="address__link address__link--font" href="tel:+380961111111">
                                     +38 096 111 11 11
                                 </a>
                             </li>
@@ -331,7 +331,7 @@
                     </address>
                 </div>
                 <div class="page-footer__social-wrapper">
-                    <h2 class="page-footer__social-title">приєднуйтесь</h2>
+                    <p class="page-footer__social-title">приєднуйтесь</p>
                     <ul class="social-list page-footer__social-list flex-container">
                         <li class="social-item page-footer__social-item">
                             <a class="social-link page-footer__social-link flex-container" href="#">
@@ -382,6 +382,25 @@
                             </a>
                         </li>
                     </ul>
+                </div>
+                <div class="follow page-footer__follow-wrapper">
+                    <p class="follow__title">пидпишіться на розсилку</p>
+                    <form class="form follow__form" action="javascript:void(0);">
+                        <label class="form__label follow__label">
+                            <input
+                                class="form__input follow__label-input"
+                                type="email"
+                                name="follow-email"
+                                placeholder="E-mail"
+                            />
+                        </label>
+                        <button class="follow__button main-btn" type="submit">
+                            Підписатися
+                            <svg class="follow__icon" width="24" height="24" aria-label="send">
+                                <use href="./images/icons/icons.svg#icon-send"></use>
+                            </svg>
+                        </button>
+                    </form>
                 </div>
             </div>
         </footer>
